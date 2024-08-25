@@ -1,0 +1,394 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.page1{
+    height: 145vh;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    display: flex;
+}
+
+.side-panel{
+    position: absolute;
+    width: 4vw;
+    height: 250vh;
+    /* background-color: red; */
+    color:gray;
+    border-right:2px solid gray;
+}
+
+.side-panel h4{
+    margin-left:1vw;
+    padding:3px;
+}
+
+.hero-section{
+    width:95vw;
+    height: 100vh;
+    /* background-color: yellow; */
+}
+
+.navbar{
+    display: flex;
+    margin-left:4.3vw;
+    width:100%;
+    height: 10vh;
+    /* background-color: blue; */
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size:2vw;
+    font-family: "Jersey 10", sans-serif;
+    height: 10vh;
+    /* background-color: aqua; */
+    width: 10vw;
+}
+
+.nav-logo a{
+    text-decoration: none;
+    color:white;
+}
+
+.nav-menu{
+    /* background-color: red; */
+    height:10vh;
+    width:90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    font-size:1.5vw;
+    font-family: "Jersey 10", sans-serif;
+    
+    
+}
+
+.mainpart{
+    margin-left:4.4vw;
+    width:100%;
+    /* background-color: yellow; */
+    height: 90vh;
+}
+
+
+
+
+.title{
+    height: 25vh;
+    width: 50vw;
+    /* background-color: red; */
+    margin-top:10vh;
+    margin-left:20vw;
+    color:white;
+    font-family:"Jersey 10", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainimage{
+    margin-top: 20vh;
+    margin-left:10vw;
+    height: 80vh;
+    width:70vw;
+    background-color: white;
+    position: relative;
+}
+
+.mainimage img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+    filter: blur(2px);
+  /* opacity: 0.7; */
+  border: 2px solid white;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.page2{
+    border-top: 0.1px solid rgb(33, 33, 33);
+    height: 120vh;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    /* background-color: red; */
+}
+
+.pagechange1{
+    color: white;
+    margin-top: 3vw;
+    margin-left:45vw;
+    height: 7vh;
+    /* background-color: yellow; */
+    width: 5vw;
+    font-family:"Jersey 10", sans-serif ;
+    font-size:1.6vw;
+}
+
+.aboutme{
+    margin-top: 2vw;
+    margin-left: 42vw;
+    color:rgb(230, 218, 115);
+    font-family:"Jersey 10", sans-serif ;
+}
+
+.descaboutme{
+    display: flex;
+    /* border-top:1px solid white ; */
+    margin-top: 5vw;
+    /* background-color: red; */
+    height: 70vh;
+    width: 100%;
+}
+
+.personal{
+    margin-top: 3vw;
+    margin-left:8vw;
+    height: 50vh;
+    width:40%;
+    /* background-color:    yellow; */
+    box-shadow:3px 2px 10px  white;
+    font-family:"Jersey 10", sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    
+}
+.personal h1{
+    margin-left: 9vw;
+    font-size: 1.7;
+}
+.personal li{
+    margin-left: 1vw;
+    font-size: 1.5vw;
+}
+
+
+
+.professional{
+    margin-top: 3vw;
+    margin-left:4.4vw;
+    height: 50vh;
+    width:40%;
+    /* background-color: yellow; */
+    /* box-shadow:3px 2px 10px  white; */
+    font-family:"Jersey 10", sans-serif;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.professional h1{
+    margin-left: 9vw;
+    font-size: 1.7;
+}
+.professional li{
+    margin-left:1vw;
+    font-size: 1.5vw;
+}
+
+.page3{
+    margin-top:-3vw;
+    /* border-top: 0.1px solid rgb(33, 33, 33); */
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    
+}
+
+.projects{
+    /* margin-top: 2vw; */
+    margin-left: 42vw;
+    color:rgb(230, 218, 115);
+    font-family:"Jersey 10", sans-serif ;
+
+}
+
+.projectname{
+    margin-left:5vw;
+    width:100%;
+    height:5vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Jersey 10", sans-serif ;
+    font-size:2vw;
+    color:purple;
+}
+
+.projectname h1{
+    padding:1vw;
+}
+
+.library{
+    width:100%;
+    height: 90vh;
+    /* background-color: red; */
+    display: flex;
+    font-family:"Jersey 10", sans-serif ;
+    font-size: large;
+}
+
+.image1{
+    width:39vw;
+    height:44vh;
+    box-shadow: 0px 2px 10px purple;
+    margin-left: 7vw;
+    margin-top:7vw;
+    /* background-color: red; */
+    overflow:hidden;
+    object-fit:cover;
+}
+
+
+
+.info{
+    margin-left: 10vw;
+    margin-top:5vw;
+    width:40%;
+    height:50vh;
+    /* background-color: yellow; */
+    padding: 2vw;
+}
+
+.info li{
+    margin-top: 1vw;
+    color:white;
+}
+
+.page4{
+    /* border-top: 0.1px solid rgb(33, 33, 33); */
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+    
+}
+.ochi{
+    width:100%;
+    height: 90vh;
+    /* background-color: red; */
+    display: flex;
+    font-family:"Jersey 10", sans-serif ;
+    font-size: large;
+}
+
+.video1{
+    width:39vw;
+    height:44vh;
+    box-shadow: 0px 2px 10px purple;
+    margin-left: 7vw;
+    margin-top:7vw;
+    background-color: red;
+    overflow:hidden;
+    object-fit:cover;
+}
+.page4 .projectname{
+    margin-left:-2vw;
+    width:100%;
+    height:5vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Jersey 10", sans-serif ;
+    font-size:2vw;
+    color:purple;
+}
+
+
+.page5{
+    /* border-top: 0.1px solid rgb(33, 33, 33); */
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(33, 33, 33);
+}
+.page5 .projectname{
+    margin-left:-2vw;
+    width:100%;
+    height:5vw;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Jersey 10", sans-serif ;
+    font-size:2vw;
+    color:purple;
+}
+
+.TwoGoodCo{
+    width:100%;
+    height: 90vh;
+    /* background-color: red; */
+    display: flex;
+    font-family:"Jersey 10", sans-serif ;
+    font-size: large;
+}
+
+.page6{
+    /* border-bottom: 0.1px solid rgb(33, 33, 33); */
+    height: 150vh;
+    width: 100%;
+    /* background-color: red; */
+    background-color: rgb(33, 33, 33);
+}
+
+.skills{
+    width: 85vw;
+    height: 50vh;
+    /* border-top:2px solid white; */
+    /* background-color: red; */
+    margin-left:6vw;
+    margin-top:-10vw;
+    font-family:"Jersey 10", sans-serif ;
+    
+}
+
+.skills h1{
+    font-size:4vw;
+}
+
+.skills button{
+    gap:30px;
+    font-size: 2vw;
+    border:none;
+    outline:none;
+    font-family: "Jersey 10", sans-serif;
+    background-color:rgb(180, 180, 231);
+    border-radius:1.5vw;
+    padding:1vw 3vw;
+    margin-top:2vw;
+}
+
+.buttons{
+    display: flex;
+   justify-content: space-evenly;
+}
+
+
+
+
+
+
